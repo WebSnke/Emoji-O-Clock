@@ -1,0 +1,24 @@
+:root {
+    --white: white;
+    --black: #111111;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+#clock {
+    font-size: 50vh;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--black);
+    }
+}
